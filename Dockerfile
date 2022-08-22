@@ -3,5 +3,5 @@ LABEL maintainer="infogkarthik@gmail.com"
 
 ADD target/Simple_Maven_Tomcat.war /usr/local/tomcat/webapps/
 
-EXPOSE 8083
+EXPOSE 8080
 CMD ["catalina.sh", "run"]
